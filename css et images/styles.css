@@ -7,20 +7,8 @@
 	src:url(../Police/Montserrat-Medium.ttf);
 }
 header{
-	font-family: Montserrat Bold;
 	display: flex;
 	flex-direction: row;
-	align-items: flex-start;
-}
-.logo{
-	height: 90%;
-	width : 90%;
-}
-.titre{
-	font-size: 350%;
-}
-div{
-	position: relative;
 }
 nav{
     width: 75%;
@@ -29,58 +17,83 @@ nav{
     flex-direction: column;
     position: 200px 0 0 0;
 }
-.submenu{
-	display: flex;
-	flex-direction: column;
-	position: relative;
-    top: 10px;
-    left: 0px;
-    display: none;
-}
 div.entete{
-	background-color: #34495e;
+	background-image: url(./backgroundmenu.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 }
-div.texteEntete{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 80%;
-	height: 80%;
-}
 div.leLogo{
 	display: flex;
 	align-items: flex-start;
-	width: 50%;
-	height: 50%;
+	width: 20%;
+	height: 20%;
 	justify-content: center;
 }
-.menu:hover .submenu{
-	display: block;
-	}
-nav>div.navig {
-	background-color: #34495e;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+.logo{
+	height: 90%;
+	width : 90%;
 }
-.menu{
+.titre{
+	font-family: Montserrat Bold;
+	font-size: 500%;
+}
+div.texteEntete{
 	display: flex;
 	flex-direction: column;
-	position: absolute;
+	justify-content: justify;
+	font-family: Montserrat;
+	width: 80%;
+	height: 80%;
+	font-size: 120%;
 }
-div div.navig{
-	position: absolute;
+.test{
+	display: flex;
+	flex-direction: column;
+	position : absolute;
+	background-color: #2c3e50;
+	font-family: Montserrat;
+	width: 100%;
+	align-items: center;
+}
+.submenu{
+    display: none;
+    font-size: 70%;
+}
+.menu:hover .submenu{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	}
+nav>div.navig {
+	background-color: #2c3e50;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div.navig{
+	height: 800%;
+	font-size: 120%;
+	font-family: Montserrat Bold;
 }
 body{
 	background-image : url(./accueil.png);
 	background-size: cover;
+	margin: auto;
+}
+main{
+	width: 75%;
+	margin: auto;
+	font-family: Montserrat;
 }
 footer{
-	background-color: #2c3e50;
+	background-color: #34495e;
 	display: flex;
+	width : 75%;
+	margin: auto;
 	align-items: flex-start;
 	font-family: Montserrat;
 	justify-content: space-evenly;
@@ -92,5 +105,4 @@ a{
 a:hover{
 	color: #ecf0f1;
 }
-
 
