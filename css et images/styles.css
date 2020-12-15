@@ -83,8 +83,8 @@ div.navig{
 	size: 120%;
 }
 body{
-	background-image : url(./accueil.png) no-repeat;
-	background-size: cover;
+	background: url(./Accueil.png);
+	background-size: 100%;
 	margin: auto;
 	height: 980px;
 	min-width: 980px;
