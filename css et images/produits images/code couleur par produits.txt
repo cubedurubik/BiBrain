@@ -1,0 +1,14 @@
+dualbrain1 : #ffc048
+dualbrain2 : #f53b57
+
+external1: #05c46b
+external2 : #7bed9f
+
+online1 : #81ecec
+online 2: #D980FA
+
+sub1 : #ACB7F4
+sub2 : #4834d4
+
+virtual1 : #5f27cd
+virtual2 : #f6e58d
