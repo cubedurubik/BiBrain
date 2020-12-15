@@ -96,11 +96,21 @@ main{
 	display: flex;
 	flex-direction: column;
 }
-article:nth-of-type(2n+1){
+article:nth-of-type(1){
+	margin-top: 1%;
+}
+article{
+	margin-top:0.5%;
+	margin-bottom: 0.5%;
+}
+article:last-of-type{
+	margin-bottom : 1%;
+}
+article:nth-of-type(odd){
 	background-color: #95afc0;
 	color: #1e272e;
 }
-article:nth-of-type(2n){
+article:nth-of-type(even){
 	background-color: #2f3542;
 	color : #f1f2f6; 
 }

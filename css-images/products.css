@@ -1,0 +1,15 @@
+article{
+	display: flex;
+	flex-direction: row;
+	justify-content: : flex-start;
+}
+.boximg{
+	display: flex;
+	align-items: flex-start;
+	width: 20%;
+	height: 20%;
+}
+.image{
+	height: 20%;
+	width : 20%;
+}
