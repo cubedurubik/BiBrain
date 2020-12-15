@@ -19,9 +19,10 @@ nav{
 }
 div.entete{
 	background-image: url(./backgroundmenu.png);
-	background-size: 100%;
+	background-size: 101%;
 	background-repeat: no-repeat;
 	background-position: center;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
@@ -75,7 +76,6 @@ nav>div.navig {
     justify-content: space-around;
 }
 div.navig{
-	height: 800%;
 	font-size: 120%;
 	font-family: Montserrat Bold;
 }
@@ -93,7 +93,6 @@ main{
 }
 article:nth-of-type(2n+1){
 	background-color: #f1f2f6;
-	box-shadow: inset #747d8c;
 	color: #2f3542;
 }
 article:nth-of-type(2n){
