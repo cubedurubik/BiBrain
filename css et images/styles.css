@@ -7,35 +7,8 @@
 	src:url(../Police/Montserrat-Medium.ttf);
 }
 header{
-	font-family: Montserrat Bold;
 	display: flex;
 	flex-direction: row;
-	align-items: flex-start;
-}
-.logo{
-	height: auto;
-	width : 10%;
-}
-.titre{
-	font-size: 350%;
-}
-body{
-	background-image : url(./accueil.png);
-	background-size: cover;
-}
-footer{
-	background-color: #2c3e50;
-	display: flex;
-	align-items: flex-start;
-	font-family: Montserrat;
-	justify-content: space-evenly;
-}
-footer a{
-	text-decoration: none;
-	color:#95a5a6;
-}
-footer a:hover{
-	color: #ecf0f1;
 }
 nav{
     width: 75%;
@@ -44,28 +17,102 @@ nav{
     flex-direction: column;
     position: 200px 0 0 0;
 }
-nav>div:hover>.submenu{
-    display: block;
-}
-.entete{
-	background-color: #34495e;
+div.entete{
+	background-image: url(./backgroundmenu.png);
+	background-size: 101%;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-evenly;
+}
+div.leLogo{
+	display: flex;
+	align-items: flex-start;
+	width: 20%;
+	height: 20%;
+	justify-content: center;
+}
+.logo{
+	height: 90%;
+	width : 90%;
+}
+.titre{
+	font-family: Montserrat Bold;
+	font-size: 500%;
 }
 div.texteEntete{
 	display: flex;
 	flex-direction: column;
+	justify-content: justify;
+	font-family: Montserrat;
+	width: 80%;
+	height: 80%;
+	font-size: 120%;
 }
-nav>div.menu {
-	background-color: #34495e;
-    display: inline;
-    position: relative;
-    width: 100px;
+.test{
+	display: flex;
+	flex-direction: column;
+	position : absolute;
+	background-color: #2c3e50;
+	font-family: Montserrat;
+	width: 100%;
+	align-items: center;
 }
 .submenu{
-    position: absolute;
-    top: 25px;
-    left: 0px;
     display: none;
+    font-size: 70%;
+}
+.menu:hover .submenu{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	}
+nav>div.navig {
+	background-color: #2c3e50;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div.navig{
+	font-size: 120%;
+	font-family: Montserrat Bold;
+}
+body{
+	background-image : url(./accueil.png);
+	background-size: cover;
+	margin: auto;
+}
+main{
+	width: 75%;
+	margin: auto;
+	font-family: Montserrat;
+	display: flex;
+	flex-direction: column;
+}
+article:nth-of-type(2n+1){
+	background-color: #f1f2f6;
+	color: #2f3542;
+}
+article:nth-of-type(2n){
+	background-color: #2f3542;
+	color : #f1f2f6; 
+}
+footer{
+	background-color: #34495e;
+	display: flex;
+	width : 75%;
+	margin: auto;
+	align-items: flex-start;
+	font-family: Montserrat;
+	justify-content: space-evenly;
+}
+a{
+	text-decoration: none;
+	color:#95a5a6;
+}
+a:hover{
+	color: #ecf0f1;
 }
 
