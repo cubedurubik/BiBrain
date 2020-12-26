@@ -1,0 +1,31 @@
+
+/*
+balise{
+	display: flex;
+	flex-direction: row;
+}
+
+#id{
+	color: #ecf0f1;
+}
+
+.class{
+	color: #ecf0f1;
+}
+
+*/
+
+.page{
+    width: 75%;
+}
+
+.cont2Prod{
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.produit{
+	width: 75px;
+	height: 75px;
+	margin:0;
+}
