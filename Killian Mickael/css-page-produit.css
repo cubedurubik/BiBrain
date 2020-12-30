@@ -19,21 +19,44 @@ balise{
     width: 75%;
 }
 
-.cont2Prod{
+.PaireCont2Prod{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-items: center;
+	margin-top:2.5%;
+	margin-bottom: 2.5%;
 
-	background-color: red;
 	border-radius: 15px;
+	background-color: #95afc0;
 }
 
-.produit{
+.ImpaireCont2Prod{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top:2.5%;
+	margin-bottom: 2.5%;
+
+	border-radius: 15px;
+	background-color: #2f3542;
+}
+
+.PaireProduit{
 	width: 250px;
 	margin: 60px;
 
-	background-color: yellow;
 	border-radius: 10px;
+	background-color: #111;
+}
+
+.ImpaireProduit{
+	width: 250px;
+	margin: 60px;
+
+	border-radius: 10px;
+	background-color: #eee;
 }
