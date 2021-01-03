@@ -49,16 +49,16 @@ article:nth-of-type(2) div.Titre a {
 article:nth-of-type(2) div.Titre a:hover{
 	color:#ffc048;
 }
-article:nth-of-type(3) div.Titre a {
+article:nth-of-type(4) div.Titre a {
 	color:#05c422;
 }
-article:nth-of-type(3) div.Titre a:hover{
+article:nth-of-type(4) div.Titre a:hover{
 	color:#7bed9f;
 }
-article:nth-of-type(4) div.Titre a {
+article:nth-of-type(3) div.Titre a {
 	color:#5f27cd;
 }
-article:nth-of-type(4) div.Titre a:hover{
+article:nth-of-type(3) div.Titre a:hover{
 	color:#f6e58d;
 }
 article:nth-of-type(5) div.Titre a {
