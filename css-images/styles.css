@@ -11,7 +11,7 @@ header{
 	flex-direction: row;
 }
 nav{
-    width: 75%;
+    width: 100%;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -90,7 +90,7 @@ body{
 	min-width: 980px;
 }
 main{
-	width: 75%;
+	width: 100%;
 	margin: auto;
 	font-family: Montserrat;
 	display: flex;
@@ -120,7 +120,7 @@ p{
 footer{
 	background-color: #34495e;
 	display: flex;
-	width: 75%;
+	width: 100%;
 	margin: auto;
 	align-items: flex-start;
 	font-family: Montserrat;
