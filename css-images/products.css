@@ -10,8 +10,9 @@ article{
 	display: flex;
 	flex-direction: row;
 }
-article nav{
+article nav.menuNAV{
 	display: flex;
+	background-image: none;
 	flex-direction: row;
 	justify-content: left;
 	width: 100%;
@@ -31,39 +32,61 @@ article nav{
 	text-align: justify;
 	margin : 2%;	
 }
-
-article:nth-of-type(1) div.Titre a {
+a.produits{
+	font-size: 100%;
+}
+article:nth-of-type(1) div.Titre a.produits {
 	color:#4834d4
 }
-article:nth-of-type(1) div.Titre a:hover{
+article:nth-of-type(1) div.Titre a.produits:hover{
 	color:#ACB7F4;
 }
 .image{
 	width: 20%;
 	height: 20%;
-	margin: 0.5%
+	min-width: 233px;
+	max-width: 233px;
+	margin: 0.5%;
 }
-article:nth-of-type(2) div.Titre a {
+@media(max-width:480px){
+	div.Titre{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin-left: 0%;
+	}
+	.image{
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		margin:0%;
+		margin: auto;
+	}
+}
+header{
+	min-width: 100%;
+	max-width: 100%;
+}
+article:nth-of-type(2) div.Titre a.produits {
 	color:#f53b57
 }
-article:nth-of-type(2) div.Titre a:hover{
+article:nth-of-type(2) div.Titre a.produits:hover{
 	color:#ffc048;
 }
-article:nth-of-type(4) div.Titre a {
+article:nth-of-type(4) div.Titre a.produits {
 	color:#05c422;
 }
-article:nth-of-type(4) div.Titre a:hover{
+article:nth-of-type(4) div.Titre a.produits:hover{
 	color:#7bed9f;
 }
-article:nth-of-type(3) div.Titre a {
+article:nth-of-type(3) div.Titre a.produits {
 	color:#5f27cd;
 }
-article:nth-of-type(3) div.Titre a:hover{
+article:nth-of-type(3) div.Titre a.produits:hover{
 	color:#f6e58d;
 }
-article:nth-of-type(5) div.Titre a {
+article:nth-of-type(5) div.Titre a.produits {
 	color:#81ecec;
 }
-article:nth-of-type(5) div.Titre a:hover{
+article:nth-of-type(5) div.Titre a.produits:hover{
 	color:#D980FA;
 }
