@@ -14,9 +14,9 @@ article nav{
 }
 
 .image{
-	height: 17%;
-	width: 17%;
-	margin: 0.4%
+	max-height: 17%;
+	max-width: 17%;
+	margin: 0.5%
 	}
 
 .news{
@@ -33,6 +33,25 @@ article nav{
 	font-size: 110%;
 	margin : 3%;	
 	line-height: 2;
+}
+@media(max-width:480px){
+	.tnews a{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin-left: 0%;
+		margin-top:5%;
+		font-size: 50%;
+	}
+	.image{
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		margin:0%;
+		margin: auto;
+	}
+	article img{
+		min-width: 50%;
+	}
 }
 
 article:nth-of-type(1) div.tnews a {
