@@ -204,6 +204,9 @@ a:hover{
     html{
 		display: flex;
 	}
+	.navig2 a{
+		font-size: 150%;
+	}
 }
 @media(max-width:768px){
     header {
