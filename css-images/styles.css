@@ -87,6 +87,9 @@ body{
 	background: url(./Accueil.png);
 	background-size: 100%;
 	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 main{
 	position: center;
@@ -115,6 +118,10 @@ article:nth-of-type(even){
 }
 p{
 	margin-left: 0.5%;
+	justify-content: justify;
+}
+h2{
+	margin-left : 1%;
 }
 footer{
 	background-color: #34495e;
@@ -139,10 +146,11 @@ a:hover{
 @media(max-width:480px){
 	main{
         width: 130%;
-        margin-left: 7%
+        margin-left: 10.5%;
+        margin-right: 10%;
     }
     article:nth-of-type(1){
-	margin-top: 4%;
+		margin-top: 4%;
 	}
 	article{
 		margin-top:2%;
@@ -193,14 +201,18 @@ a:hover{
     	margin-bottom: 2px;
     	margin-top: 2px;
     }
+    html{
+		display: flex;
+	}
 }
 @media(max-width:768px){
     header {
         flex-direction: column;
         flex-wrap: wrap;
+        width: 150%;
     }
     footer{
-        width: 144%;
+        width: 150%;
     }
     nav{
         flex-wrap: wrap;
@@ -219,5 +231,8 @@ a:hover{
     }
     div .description{
 		display: none;
+	}
+	html{
+		display: flex;
 	}
 }
