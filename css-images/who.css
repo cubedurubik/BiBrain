@@ -1,0 +1,108 @@
+@font-face{
+	font-family: Montserrat Bold;
+	src:url(../Police/Montserrat-Bold.ttf);
+}
+@font-face{
+	font-family: Montserrat;
+	src:url(../Police/Montserrat-Medium.ttf);
+}
+@font-face{
+	font-family: Montserrat Italic;
+	src:url(../Police/Montserrat-MediumItalic.ttf);
+}
+article{
+	display: flex;
+	flex-direction: row;
+}
+article nav.menuNAV{
+	display: flex;
+	background-image: none;
+	flex-direction: row;
+	justify-content: left;
+	width: 100%;
+}
+.BOXtxt{
+	display: flex;
+	flex-direction: column;
+}
+.Titre{
+	font-family: Montserrat Bold;
+	font-size: 300%;
+	margin-left: 5%;
+}
+.content{
+	font-size: 120%;
+	line-height: 2;
+	text-align: justify;
+	margin : 2%;	
+}
+#tcite{
+	color: #f11111;
+}
+a.member{
+	font-size: 100%;
+}
+.cite{
+	font-family: Montserrat Italic;
+}
+article:nth-of-type(1) div.Titre a.member {
+	color:#f7971f
+}
+article:nth-of-type(1) div.Titre a.member:hover{
+	color:#f8573e
+}
+.image{
+	width: 20%;
+	height: 20%;
+	min-width: 233px;
+	max-width: 233px;
+	margin: 0.5%;
+	border-radius: 100%;
+}
+@media(max-width:480px){
+	div.Titre{
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin-left: 0%;
+	}
+	.image{
+		margin-top: 0.5%;
+		margin-bottom: 0.5%;
+		margin:0%;
+		margin: auto;
+	}
+	footer{
+        width: 150%;
+        margin-left: 0%;
+    }
+    header {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 150%;
+    }
+}
+article:nth-of-type(2) div.Titre a.member {
+	color:#f8d76e
+}
+article:nth-of-type(2) div.Titre a.member:hover{
+	color:#f78e07
+}
+article:nth-of-type(4) div.Titre a.member {
+	color:#25c452;
+}
+article:nth-of-type(4) div.Titre a.member:hover{
+	color:#fbed2f;
+}
+article:nth-of-type(3) div.Titre a.member {
+	color:#7f016d;
+}
+article:nth-of-type(3) div.Titre a.member:hover{
+	color:#f842fd;
+}
+article:nth-of-type(5) div.Titre a.member {
+	color:#252525;
+}
+article:nth-of-type(5) div.Titre a.member:hover{
+	color:#e2e2e2;
+}

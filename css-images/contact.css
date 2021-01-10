@@ -1,0 +1,34 @@
+label{
+    color: black;
+    font-style: italic;
+    font-size: medium;
+}
+.colonneGauche{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 10px 20px 10px;
+    border: 2px solid black;
+    background-color: blue;
+
+}
+.formulaire{
+    display: flex;
+    background-color: brown;
+    margin: 20px 10px 20px 10px;
+    border: 2px solid black;
+}
+main{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+}
+.logo2{
+    height: 100%;
+    width: 100%;
+}
+div.logo{
+    border: 2px solid black;
+}
+div.description{
+    border: 2px solid black;
+}
