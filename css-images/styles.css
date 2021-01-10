@@ -16,7 +16,7 @@ nav.menuNAV{
     margin: auto;
     display: flex;
     flex-direction: column;
-    position: 200px 0 0 0;
+    position: 200px 0px 0px 0px;
 }
 div.entete{
 	width: 100%;
@@ -46,7 +46,6 @@ div.leLogo{
 div.texteEntete{
 	display: flex;
 	flex-direction: column;
-	justify-content: justify;
 	font-family: Montserrat;
 	width: 80%;
 	height: 80%;
@@ -81,7 +80,7 @@ nav>div.navig {
 div.navig{
 	font-size: 150%;
 	font-family: Montserrat Bold;
-	size: 120%;
+	resize: 120%;
 }
 body{
 	background: url(./Accueil.png);
@@ -92,7 +91,6 @@ body{
 	justify-content: center;
 }
 main{
-	position: center;
 	font-family: Montserrat;
 	display: flex;
 	flex-direction: column;
@@ -118,7 +116,6 @@ article:nth-of-type(even){
 }
 p{
 	margin-left: 0.5%;
-	justify-content: justify;
 }
 h2{
 	margin-left : 1%;
