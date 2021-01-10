@@ -1,34 +1,112 @@
+@font-face{
+    font-family: Montserrat Italic;
+    src:url(../Police/Montserrat-MediumItalic.ttf);
+}
 label{
-    color: black;
-    font-style: italic;
+    color: white;
+    font-family: Montserrat Italic;
+    text-decoration: underline;
     font-size: medium;
 }
 .colonneGauche{
     display: flex;
-    flex-direction: column;
-    margin: 20px 10px 20px 10px;
-    border: 2px solid black;
-    background-color: blue;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    background-color: #95afc0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 
 }
 .formulaire{
     display: flex;
-    background-color: brown;
-    margin: 20px 10px 20px 10px;
-    border: 2px solid black;
+    flex-direction: column;
+    background-color: #2f3542;
+    color : #f1f2f6;
+    margin: 10px 0px 20px 0px;
+    width: 100%;
+    border-radius: 10px;
+}
+@font-face{
+	font-family: Montserrat;
+	src:url(../Police/Montserrat-Medium.ttf);
 }
 main{
-    width: 75%;
-    display: flex;
-    flex-direction: row;
-}
-.logo2{
-    height: 100%;
-    width: 100%;
+    width: 95%;
+	margin: auto;
+	font-family: Montserrat;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
 }
 div.logo{
-    border: 2px solid black;
+    width: 100%;
+}
+.logo2{
+    width: 500%
 }
 div.description{
+    margin: 20px 10px 20px 0px;
+    background-color: #557f90;
+    width: 110%;
+    border-radius: 10px;
+}
+.description p{
+    margin-left: 3%
+}
+h3{
+    margin-left: 3.5%
+}
+main a{
+    color: #1e272e;
+}
+main a:hover{
+    color:#95a5a6;
+}
+#envoye{
+    color: black;
+    margin: 20px 10px 20px 10px;
+    background-color: #557f90;
     border: 2px solid black;
+    border-radius: 5px;
+    width: 150%;
+}
+form>div{
+    margin: 20px 10px 20px 10px;
+    border-radius: 10px;
+}
+input{
+    width: 95%;
+    height: 10%;
+}
+div label{
+    width: 30%;
+    height: 10%;
+}
+select{
+    width: 95.5%;
+    height: 10%;
+}
+main nav{
+    width: 100%;
+}
+@media(max-width:768px){
+    .description#liens{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 75%;
+    }
+    div.colonneGauche{
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        margin: 0px 0px 0px 0px;
+    }
+    main{
+        width: 130%;
+        margin-left: 10.5%;
+        margin-right: 10%;
+    }
 }

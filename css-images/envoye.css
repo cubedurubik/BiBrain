@@ -1,0 +1,8 @@
+main a{
+    color: #3131a1;
+    text-decoration: underline;
+    font-size: 120%
+}
+main a:hover{
+    color:#95a5a1;
+}

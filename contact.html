@@ -5,10 +5,11 @@
 	<link rel="stylesheet" type="text/css" href="./css-images/contact.css">
     <link rel="icon" type="image/x-con" href="favicon.ico">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BiBrain</title>
   </head>
   <body>
-   <header id="debut">
+<header id="debut">
     <nav class="menuNAV">
       <div class="entete">
         <div class="leLogo">
@@ -25,11 +26,11 @@
         <div class="menu"><a>Nos Produits</a>
             <div class="submenu">
               <div class="test">
-                <div><a href="./sub.html">SubBrain</a></div>
-                <div><a href="./dual.html">Dual-Brain</a></div>
-                <div><a href="./external.html">External-Brain</a></div>
-                <div><a href="./virtual.html">Virtual-Brain</a></div>
-                <div><a href="./online.html">Online-Brain</a></div>
+                <div><a href="produits/sub.html">SubBrain</a></div>
+                <div><a href="produits/dual.html">Dual-Brain</a></div>
+                <div><a href="produits/external.html">External-Brain</a></div>
+                <div><a href="produits/virtual.html">Virtual-Brain</a></div>
+                <div><a href="produits/online.html">Online-Brain</a></div>
             </div>
             </div>
         </div> 
@@ -53,17 +54,19 @@
 		<div class="colonneGauche">
 			<div class="logo">
 				<div class="leLogo">
-					<a href="../index.html"><img src="https://imgur.com/KwM72V5.png" alt="Logo du site" class="logo2"></a>
+					<a href="./index.html"><img src="https://imgur.com/KwM72V5.png" alt="Logo du site" class="logo2"></a>
 				</div>
 			</div>
-			<div class="description">
-				<p>
-					lol<br>
-					lol<br>
-					lol<br>
-				</p>
+			<div class="description" id="liens">
+					<h3>Adresse :</h3>
+					<p>IUT de Montpellier-Sète</p> 
+					<p>99 avenue d’Occitanie 34090 Montpellier</p>  
+					<h3>E-mail :</h3><p>nulitox@gmail.com</p>
+					<h3><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Youtube</a></h3>
+					<h3><a href="https://twitter.com/NASA" target="_blank">Twitter</a></h3>
 			</div>
 		</div>
+	</nav>
 		<div class="formulaire">
 			<form action="" method="POST">
 				<div><label for="nom">Nom*</label></div>
@@ -73,7 +76,7 @@
 				<div><label for="mail">Mail*</label></div>
 				<div><input id="mail" type="text" name="mail" placeholder="Entrez votre adresse e-mail ici"></div>
 				<div><label for="num">Numéro de téléphone</label></div>
-				<div><input id="num" type="number" name="numero" placeholder="Entres votre numero ici"></div>
+				<div><input id="num" type="number" name="numero" placeholder="Entrez votre numero ici"></div>
 				<div><label for="typemsg">Type de message*</label></div>
 				<div><select id="typemsg" name="typemsg">
 						<option value="">--Choisir un type de message--</option>
@@ -85,15 +88,18 @@
 				<div><label for="objet">Objet*</label></div>
 				<div><input id="objet" type="texte" name="objet" placeholder="Entrez l'objet du contact ici"></div>
 				<div><label for="msg">Message*</label></div>
-				<div><textarea placeholder="Laisser votre message et nous vous recontacterons au plus vite"></textarea></div>
+				<div><textarea name="message" cols="40" rows="10" placeholder="Laisser votre message et nous vous recontacterons au plus vite"></textarea></div>
 			</form>
+			<div><a id="envoye"href="./envoye.html">Envoyer</a></div>
+			<div><p id="Attention">Les champs marqués de (*) sont obligatoires</p></div>
 		</div>
 	</main>
   		<footer>
-          <p><a href=./who.html>A propos de nous...</a></p>
-          <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Youtube</a></p>
-          <p><a href="https://twitter.com/NASA" target="_blank">Twitter</a></p>
-          <p><a href=./contact.html>Nous contacter</a></p>
-          <p><a href=./news.html#debut>Retour au début</a></p>
-      </footer>
+  				<p><a href=./who.html>A propos de nous...</a></p>
+  				<p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Youtube</a></p>
+  				<p><a href="https://twitter.com/NASA" target="_blank">Twitter</a></p>
+  				<p><a href=./contact.html>Nous contacter</a></p>
+  				<p><a href=./contact.html#debut>Retour au début</a></p>
+  		</footer>
+  	</body>
 </html>
