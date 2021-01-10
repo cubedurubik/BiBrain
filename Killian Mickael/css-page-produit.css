@@ -14,8 +14,9 @@ balise{
 }
 
 */
-main>div{
-	margin: 2%;
+main{
+	margin: auto;
+	width:96%;
 }
 
 .text_prod{
@@ -25,53 +26,73 @@ main>div{
 	margin-bottom: 3%;
 	margin-top: 0%;
 }
-
 .PaireCont2Prod{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-items: center;
-	margin-top:2.5%;
+	margin-top:0.5%;
 	margin-bottom: 2.5%;
-
 	border-radius: 15px;
 	background-color: #95afc0;
+	width: 100%;
+	height: 100%;
 }
 
 .PaireCont2Prod>div{
 	width: 250px;
 	margin: 60px;
-
-	border-radius: 10px;
-	background-color: #111;
+	border-radius: 15px;
+	background-color: #2f3542;
 }
-
-.PaireCont2Prod>div>.text_prod{	background-color: #95afc0;}
-
+.PaireCont2Prod>div>.text_prod{	
+	background-color: #959fee;
+	color :#2f3542;
+}
+div>.text_prod{
+	border-radius: 10px;
+}
 .ImpaireCont2Prod{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-items: center;
-	margin-top:2.5%;
+	margin-top:0.5%;
 	margin-bottom: 2.5%;
-
 	border-radius: 15px;
 	background-color: #2f3542;
 }
-
 .ImpaireCont2Prod>div{
 	width: 250px;
 	margin: 60px;
-
-	border-radius: 10px;
-	background-color: #eee;
+	border-radius: 15px;
+	background-color: #95afc0;
+}
+.ImpaireCont2Prod>div>.text_prod{
+	background-color: #4f5562;
+	color :#eee;
+}
+.PaireProduit:hover{
+transform:scale(1.25);
+}
+.ImpairProduit:hover{
+transform:scale(1.20);
+}
+ div .PaireProduit{
+	transition: all 1s ease;
 }
 
-.ImpaireCont2Prod>div>.text_prod{background-color: #2f3542;}
-
-
-
-
+ div .ImpairProduit{
+	transition: all 1s ease;
+}
+p{
+	margin-left : 5%;
+}
+div h1{
+	margin-left: 2%;
+}
+.prix{
+	color: #eb4d4b;
+}
