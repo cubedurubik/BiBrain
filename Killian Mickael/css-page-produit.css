@@ -19,6 +19,11 @@ main{
 	width:96%;
 }
 
+.PaireProduit{
+	margin-left: auto;
+    margin-right: auto;
+}
+
 .text_prod{
 	padding: 0px 0px 0px 0px;
 	margin-left: 3%;
