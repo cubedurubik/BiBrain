@@ -5,44 +5,105 @@
 		<link rel="stylesheet" type="text/css" href="css-images/products.css">
 		<link rel="icon" type="image/x-con" href="favicon.ico">
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
     	<title>Tous nos produits</title>
     </head>
     <body>
-    	<header>
-		  	<nav>
-		  		<div class="entete">
-			  		<div class="leLogo">
-			  			<a href="./index.html"><img src="https://imgur.com/KwM72V5.png" alt="Logo du site" class="logo"></a>
-			  		</div>
-			  		<div class="texteEntete">
-			  			<div class="titre"> BiBrain</div>
-			  			<blockquote class="description">Bienvenue sur le site numéro UN d'achat de cerveau en France (et sûrement dans tout l'univers)</blockquote>
-			  		</div>
-		    	</div>
-			    <div class="navig">
-			    	<div><a href="./index.html">Accueil</a></div>
-				    <div><a href="./news.html">News</a></div>
-					<div class="menu"><a href="./products.html">Nos Produits</a>
-			        	<div class="submenu">
-		              <div class="test">
-				            <div><a href="./sub.html">SubBrain</a></div>
-				            <div><a href="./dual.html">Dual-Brain</a></div>
-				            <div><a href="./external.html">External-Brain</a></div>
-				            <div><a href="./virtual.html">Virtual-Brain</a></div>
-				            <div><a href="./online.html">Online-Brain</a></div>
-				        </div>
-			        	</div>
-			    	</div> 
-			    	<div><a href="./complete.html">Cerveaux Complets</a></div>
-		        <div><a href="./who.html">Qui sommes nous ?</a></div>
-			    	</div>
-		    	</div>
-			</nav>
-  		</header>
+    <header id="debut">
+  	<nav class="menuNAV">
+  		<div class="entete">
+	  		<div class="leLogo">
+	  			<a href="./index.html"><img src="https://imgur.com/KwM72V5.png" alt="Logo du site" class="logo"></a>
+	  		</div>
+	  		<div class="texteEntete">
+	  			<div class="titre"> BiBrain</div>
+	  			<blockquote class="description">Bienvenue sur le site numéro UN d'achat de cerveau en France (et sûrement dans tout l'univers)</blockquote>
+	  		</div>
+    	</div>
+      <nav>
+	    <div class="navig">
+	    	<div><a href="./index.html">Accueil</a></div>
+		    <div><a href="./news.html">News</a></div>
+			  <div class="menu"><a href="./products.html">Nos Produits</a>
+	        	<div class="submenu">
+              <div class="test">
+		            <div><a href="./sub.html">SubBrain</a></div>
+		            <div><a href="./dual.html">Dual-Brain</a></div>
+		            <div><a href="./external.html">External-Brain</a></div>
+		            <div><a href="./virtual.html">Virtual-Brain</a></div>
+		            <div><a href="./online.html">Online-Brain</a></div>
+		        </div>
+	        	</div>
+	    	</div> 
+	    	<div><a href="./complete.html">Cerveaux Complets</a></div>
+        <div><a href="./who.html">Qui sommes nous ?</a></div>
+	    	</div>
+      </nav>
+      <div class="burger">
+        <img src="css-images/burger.png" alt="burger">
+        <nav>
+        <div class="navig2">
+          <div><a href="./index.html">Accueil</a></div>
+          <div><a href="./news.html">News</a></div>
+          <div class="menu"><a href="./products.html">Nos Produits</a></div> 
+          <div><a href="./complete.html">Cerveaux Complets</a></div>
+          <div><a href="./who.html">Qui sommes nous ?</a></div>
+        </nav>
+      	</div>
+	</nav>
+  </header>
   		<main>
   			<article>
-  				<nav>
-  					<div class="BOXimg"><img src="css-images/produits/subbrain.png" alt="Image du cerveau" class="image"></div>
+  				<nav class="menuNAV">
+  					<img src="css-images/produits/subbrain.png" alt="Image du cerveau" class="image">
   					<div class="BOXtxt">
-  						<div class="Titre">SubBrain</div>
+  						<div class="Titre"><a href="./sub.html" class="produits">SubBrain</a></div>
+  						<div class="content"> C'est un de nos cerveau qui permet de créer un sous-système dans votre propre cerveau ridicule ! On peut alors effectuer des choses que vous pouvez déjà faire ! N'est-ce pas impressionant ? Et tout ça avec la méthode "SubBrain" ! </div>
+  					</div>
+  				</nav>
   			</article>
+  			<article>
+  				<nav class="menuNAV">
+  					<img src="css-images/produits/dualbrain.png" alt="Image du cerveau" class="image">
+  					<div class="BOXtxt">
+  						<div class="Titre"><a href="./dual.html" class="produits">DualBrain</a></div>
+  						<div class="content"> C'est un de nos cerveau qui permet de diviser votre pensée en deux, pensez-y à deux fois avant de l'acheter, car cela peut vous troubler et vous créer des troubles de l'identité, mais ce sera comme si vous aviez un cerveau à deux coeurs !</div>
+  					</div>
+  				</nav>
+  			</article>
+  			<article>
+  				<nav class="menuNAV">
+  					<img src="css-images/produits/virtualbrain.png" alt="Image du cerveau" class="image">
+  					<div class="BOXtxt">
+  						<div class="Titre"><a href="./virtual.html" class="produits">VirtualBrain</a></div>
+  						<div class="content"> Un cerveau entièrement dématérialisé qui permet d'avoir ces pensées retransmise sur ordinateur ou autre appareil connecté, c'est un peu le Isekaï du cerveau, sans les scènes un peu ecchi-haremesque que cela peut apporter, puis ça reste incroyable pas comme Sword Art Online.</div>
+  					</div>
+  				</nav>
+  			</article>
+  			<article>
+  				<nav class="menuNAV">
+  					<img src="css-images/produits/externalbrain.png" alt="Image du cerveau" class="image">
+  					<div class="BOXtxt">
+  						<div class="Titre"><a href="./external.html" class="produits">ExternalBrain</a></div>
+  						<div class="content"> C'est un de nos cerveau qui permet de rallonger vos pensées vers l'extérieur, vous ouvrir... Cela vous permet aussi d'apporter n'importe quelle modification dessus puisque qu'il est en dehors de votre crâne, attention, ce sera plus facile de lire dans vos pensées...</div>
+  					</div>
+  				</nav>
+  			</article>
+  			<article>
+  				<nav class="menuNAV">
+  					<img src="css-images/produits/onlinebrain.png" alt="Image du cerveau" class="image">
+  					<div class="BOXtxt">
+  						<div class="Titre"><a href="./online.html" class="produits">OnlineBrain</a></div>
+  						<div class="content"> Un cerveau en ligne, ça vous permet de mettre tout en ligne avec un nom de domaine comme "cerveaudealbert.com" (c'est payant hein) vous pouvez choisir que votre cerveau soit open source ou non ou même collaboratif pour que tout le monde puisse le modifier !</div>
+  					</div>
+  				</nav>
+  			</article>
+  		</main>
+  		<footer>
+  				<p><a href=./who.html>A propos de nous...</a></p>
+  				<p><a href=https://www.youtube.com/watch?v=dQw4w9WgXcQ target="_blank">Youtube</a></p>
+  				<p><a href="https://twitter.com/NASA" target="_blank">Twitter</a></p>
+  				<p><a href=./contact.html>Nous contacter</a></p>
+  				<p><a href=./products.html#debut>Retour au début</a></p>
+  		</footer>
+  	</body>
