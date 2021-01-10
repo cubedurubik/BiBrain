@@ -12,7 +12,6 @@ header{
 	width: 100%;
 	justify-content: space-evenly;
 }
-
 nav.menuNAV{
     margin: auto;
     display: flex;
@@ -84,7 +83,7 @@ div.navig{
 	resize: 120%;
 }
 body{
-	background: url(./Accueil.png);
+	background-color:#e7e7e9;
 	background-size: 100%;
 	margin: auto;
 	display: flex;

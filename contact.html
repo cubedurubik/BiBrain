@@ -1,15 +1,14 @@
 <!doctype html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="./css-images/styles.css">
-    <link rel="stylesheet" type="text/css" href="./css-images/contact.css">
+	<link rel="stylesheet" type="text/css" href="./css-images/styles.css">
+	<link rel="stylesheet" type="text/css" href="./css-images/contact.css">
     <link rel="icon" type="image/x-con" href="favicon.ico">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BiBrain</title>
   </head>
   <body>
-  <header id="debut">
+   <header id="debut">
     <nav class="menuNAV">
       <div class="entete">
         <div class="leLogo">
@@ -51,42 +50,50 @@
       </div>
   </header>
   	<main>
-  		<article>
-		<form action="" method="">
-			<table>
-				<tr>
-				<th><div><label for="nom">Nom*</label></th>
-				<td><input id="nom" type="text" value=""></div></td>
-				</tr>
-				<tr>
-					<th><div><label for="prenom">Prénom*</label></th>
-					<td><input id="prenom" type="text"></div></td>
-				</tr>
-				<tr>
-					<th><div><label for="mail">Mail*</label></th>
-					<td><input id="mail" type="text"></div></td>
-				</tr>
-				<tr>
-					<th><div><label for="typemsg">Type de message*</label></th>
-					<td><input id="typemsg" type="text"></div></td>
-				</tr>
-				<tr>
-					<th><div><label for="objet">Objet*</label></th>
-					<td><input id="objet" type="texte"></div></td>
-				</tr>
-				<tr>
-					<th><div><label for="msg">Message*</label></th>
-					<td><textarea></textarea></div></td>
-				</tr>
-			</table>
-		</form> 
-		</article>
+		<div class="colonneGauche">
+			<div class="logo">
+				<div class="leLogo">
+					<a href="../index.html"><img src="https://imgur.com/KwM72V5.png" alt="Logo du site" class="logo2"></a>
+				</div>
+			</div>
+			<div class="description">
+				<p>
+					lol<br>
+					lol<br>
+					lol<br>
+				</p>
+			</div>
+		</div>
+		<div class="formulaire">
+			<form action="" method="POST">
+				<div><label for="nom">Nom*</label></div>
+				<div><input id="nom" type="text" name="nom" placeholder="Entrez votre nom ici"></div>
+				<div><label for="prenom">Prénom*</label></div>
+				<div><input id="prenom" type="text" name="prenom" placeholder="Entrez votre prénom ici"></div>	
+				<div><label for="mail">Mail*</label></div>
+				<div><input id="mail" type="text" name="mail" placeholder="Entrez votre adresse e-mail ici"></div>
+				<div><label for="num">Numéro de téléphone</label></div>
+				<div><input id="num" type="number" name="numero" placeholder="Entres votre numero ici"></div>
+				<div><label for="typemsg">Type de message*</label></div>
+				<div><select id="typemsg" name="typemsg">
+						<option value="">--Choisir un type de message--</option>
+						<option value="recherche">Rechercher un emploi</option>
+						<option value="pub">Faire notre publicité</option>
+						<option value="achat">Acheter un produit</option>
+					</select>
+				</div>
+				<div><label for="objet">Objet*</label></div>
+				<div><input id="objet" type="texte" name="objet" placeholder="Entrez l'objet du contact ici"></div>
+				<div><label for="msg">Message*</label></div>
+				<div><textarea placeholder="Laisser votre message et nous vous recontacterons au plus vite"></textarea></div>
+			</form>
+		</div>
 	</main>
-<footer>
-  </body>
-  <p><a href=../who.html>A propos de nous...</a></p>
-  <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Youtube</a></p>
-  <p><a href="https://twitter.com/NASA" target="_blank">Twitter</a></p>
-  <p><a href=../contact.html>Nous contacter</a></p>
-  <p><a href=./contact.html#debut>Retour au début</a></p>
+  		<footer>
+          <p><a href=./who.html>A propos de nous...</a></p>
+          <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">Youtube</a></p>
+          <p><a href="https://twitter.com/NASA" target="_blank">Twitter</a></p>
+          <p><a href=./contact.html>Nous contacter</a></p>
+          <p><a href=./news.html#debut>Retour au début</a></p>
+      </footer>
 </html>
